@@ -1373,6 +1373,13 @@ a.mobile-show.search-bar-icon:hover {
 # Hero Styles
 
 ----------------------------------------------------------------------------- */
+.hero-bg-promotion{
+  background-image: url(../img/bg-promotion.jpg);
+  background-size:  cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .hero-bg-gallery{
   background-image: url(../img/bg.png);
   background-size:  cover;
@@ -2466,11 +2473,13 @@ ul.social-link-team li a {
 
 .single-product-item {
   margin-bottom: 30px;
+  /* padding-bottom : 30px; */
+  /* margin-bottom: auto; */
 }
 
 .product-image {
   padding: 30px;
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
 }
 /* .product-image img {
   width: 90%;
@@ -2832,4 +2841,34 @@ table.order-details tbody td {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+
+/* .table {
+	display: table;  
+	margin: 0 auto;
+} */
+
+.horizontal-products{
+  /* display:flex; */
+  list-style: none;
+  
+  display: table;
+  height: 680px;
+  display:flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+
+}
+#horizontal-products{
+  /* display:flex; */
+  list-style: none;
+  
+  display: table;
+  height: 680px;
+  display:flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+
 }
